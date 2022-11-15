@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Watch List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="header-container">
+            <div class="header-text-container">
+                <h1 class="find-film">FIND YOUR FILM</h1>
+            </div>
+        </div>
+        <div class="search-box" id="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input id="movie-input-search" type="text" placeholder="Search for a movie">
+            <button class="search-btn" id="search-btn">SEARCH</button>
+        </div>
+        <div class="empty-time" id="empty-time">
+            <img id="film-image" class="film-image" src="Film Icon.png" alt="Film Icon">
+            <p id="main-text" class="main-text">Start Exploring</p>
+        </div>
+        <div class="unable-to-find" id="unable-to-find">
+            <p class="font-size">Unable to find what you're looking <br> for. Please try another search.</p>
+        </div>
+        <div class="movie-section" id="movie-section">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
